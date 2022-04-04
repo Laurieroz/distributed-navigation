@@ -19,10 +19,6 @@ header {
   align-items: center;
 }
 
-img {
-  width: 2rem;
-}
-
 header h1 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -50,8 +46,13 @@ nav a {
   padding-left: 1rem;
   margin-right: 1rem;
   text-decoration: none;
+  list-style-type: none;
 }
 
 a:hover {
   color: #fff;
+}
+
+img {
+  width: 2rem;
 }
